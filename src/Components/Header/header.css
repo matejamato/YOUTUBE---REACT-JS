@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: ghostwhite;
+    align-items: center;
+    padding: 20px 0px;
+}
+.logo {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.logo > img {
+    width: 100%;
+}

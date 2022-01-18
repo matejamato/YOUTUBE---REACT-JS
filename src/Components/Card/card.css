@@ -1,0 +1,22 @@
+.pojedinacni {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 2px;
+    background-color: #f9f9f9;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 400px;
+    min-height: 450px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pojedinacni > h2 {
+    color: red;
+}
+
+.pojedinacni > h2:hover{
+    color: blue;
+}
